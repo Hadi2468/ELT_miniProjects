@@ -1,6 +1,5 @@
 ## Project 2: dbt Glue
 
-### Architecture Diagram
 ![Project 2: dbt Glue](./P2_Workflow.png)
 
 ### Project Overview
