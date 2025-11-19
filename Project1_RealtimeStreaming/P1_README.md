@@ -19,14 +19,29 @@ o	Kinesis Firehose delivers the data from the stream to an S3 data bucket for lo
 o	Use Snowpipe, Snowflake’s data ingestion feature, to continuously ingest data from the S3 bucket into Snowflake tables.
 
 ## Deployment Steps
-1.	Setup an IAM role and policy: Create an AWS IAM policy which will be used by APU gateway and lambda to write the data to the respective AWS services
-2.	Provision S3 Bucket: Create two S3 buckets(data and error) and define folder structures for data storage.
-3.	Configure Kinesis Stream: Set up Kinesis Data Streams and Firehose for data streaming and delivery.
-4.	Create Lambda Function: Write and deploy a Lambda function to process the incoming data to check the format of the data and process them accordingly to Kinesis or S3 error bucket
-5.	Set up API Gateway: Configure an endpoint to accept HTTP POST requests.
-6.	Enable Snowpipe in Snowflake: Configure Snowpipe to monitor the S3 bucket and ingest data automatically.
-7.	Test with Postman: Simulate data ingestion by sending test payloads via Postman.
-8.	Validate Data Flow: Ensure the data flows through all components and is queryable in Snowflake.
+1.	**Setup an IAM role and policy:**  
+   Create an AWS IAM policy which will be used by APU gateway and lambda to write the data to the respective AWS services
+
+2. **Provision S3 Bucket:**  
+   Create two S3 buckets(data and error) and define folder structures for data storage.
+
+3. **Configure Kinesis Stream:**  
+   Set up Kinesis Data Streams and Firehose for data streaming and delivery.
+
+4.	**Create Lambda Function:**  
+   Write and deploy a Lambda function to process the incoming data to check the format of the data and process them accordingly to Kinesis or S3 error bucket
+
+5.	**Set up API Gateway:**  
+   Configure an endpoint to accept HTTP POST requests.
+
+6.	**Enable Snowpipe in Snowflake:**  
+   Configure Snowpipe to monitor the S3 bucket and ingest data automatically.
+
+7.	**Test with Postman:**  
+   Simulate data ingestion by sending test payloads via Postman.
+
+8. **Validate Data Flow:**  
+   Ensure the data flows through all components and is queryable in Snowflake.
 
  
 
