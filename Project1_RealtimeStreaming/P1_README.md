@@ -1,7 +1,8 @@
 ## Project 1: Real-time Streaming 
 
-### Real-time data streaming using all available services of **AWS, Snowflake, etc.**
-## 
+#### Real-time data streaming using all available services of **AWS and Snowflake**
+![Real-time Streaming](./P1_Workflow.png) 
+
 ## Objective
 The objective of this project is to create a real-time data streaming pipeline that captures, processes, and stores data using AWS services and Snowflake. The pipeline will simulate data ingestion via Postman, process it through AWS services (API Gateway, Lambda, Kinesis, Firehose, and S3), and utilize Snowflake features such as Snowpipe for seamless data integration into the Snowflake environment.
 
