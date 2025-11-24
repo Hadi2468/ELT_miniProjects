@@ -5,7 +5,7 @@
 2.	Once the data is loaded into the target region's S3 bucket, we will use SQS to send a notification to trigger Glue crawler to generate a table in the Glue catalog.
 3.	After the table is created in the Glue catalog, we will leverage AWS Athena to query the data and analyze its contents.
 
-![Architecture Diagram](./P5_Workflow)
+![Architecture Diagram](./P5_Workflow.png)
 
 ### Objective:
 1.	Migrate data between S3 buckets in different regions using services like SNS, SQS, and Lambda.
