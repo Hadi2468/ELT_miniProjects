@@ -6,4 +6,4 @@ We are going to set up an AWS S3 bucket. Also, will load the ‘.csv’ data fil
 
 
 ### Architecture
-![P4_Workflow.png](./P4_Workflow.png)
+![P4_Workflow](./P4_Workflow.png)
